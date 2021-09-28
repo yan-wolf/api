@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projetos_associados_s",
+  "info": {
+    "name": "projetos associados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

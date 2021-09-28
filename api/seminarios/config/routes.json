@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seminarios",
+      "handler": "seminarios.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seminarios/count",
+      "handler": "seminarios.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seminarios/:id",
+      "handler": "seminarios.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/seminarios",
+      "handler": "seminarios.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seminarios/:id",
+      "handler": "seminarios.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seminarios/:id",
+      "handler": "seminarios.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

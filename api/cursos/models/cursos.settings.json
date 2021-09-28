@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "name": "cursos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "resumo": {
+      "type": "text",
+      "required": true
+    },
+    "miniatura": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

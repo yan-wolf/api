@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seminarios",
+  "info": {
+    "name": "seminarios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "resumo": {
+      "type": "text",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "local": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

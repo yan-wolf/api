@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "heders",
+  "info": {
+    "name": "heder"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    }
+  }
+}

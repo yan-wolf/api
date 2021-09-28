@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testes",
+  "info": {
+    "name": "teste",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "type": "text",
+      "required": true
+    },
+    "test": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teste.teste"
+    }
+  }
+}

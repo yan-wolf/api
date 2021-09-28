@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/heder",
+      "handler": "heder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/heder",
+      "handler": "heder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/heder",
+      "handler": "heder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

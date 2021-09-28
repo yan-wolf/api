@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_teste_testes",
+  "info": {
+    "name": "teste",
+    "icon": "notes-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textoCruto": {
+      "type": "string"
+    },
+    "midia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "textoLongo": {
+      "type": "text"
+    }
+  }
+}

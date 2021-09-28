@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_teste_teste2s",
+  "info": {
+    "name": "teste2",
+    "icon": "hands-helping"
+  },
+  "options": {},
+  "attributes": {
+    "textoC": {
+      "type": "string"
+    },
+    "textoL": {
+      "type": "string"
+    },
+    "midia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
